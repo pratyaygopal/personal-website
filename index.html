@@ -2,28 +2,111 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <title>Portfolio</title>
+    <title>Pratyay Gopal</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> <!-- Font Awesome CDN -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        ::selection {
+            background: rgb(18, 18, 18);
+        }
+
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background: linear-gradient(135deg, #131313 50%, #000 50%, #101010 10%);
+            background-size: 50px 50px; 
+            background-repeat: repeat;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            position: relative;
+        }
+
+        header {
+            margin-bottom: 2rem;
+        }
+
+        header h1 {
+            font-size: 5rem; /* Increased size */
+            font-weight: 700;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* Added text shadow for better contrast */
+            transition: font-size 0.3s ease-in-out; /* Smooth transition for font-size change */
+        }
+
+        header h1 span {
+            color: rgb(210, 30, 30); /* Make the 'P' and 'G' red */
+        }
+
+        header h1:hover {
+            font-size: 6rem; /* Slightly larger on hover */
+        }
+
+        header a {
+            text-decoration: none; /* Remove underline from the anchor tag */
+            color: inherit; /* Inherit the color of the text */
+        }
+
+        nav {
+            position: absolute;
+            top: 2rem;
+            left: 50%;
+            transform: translateX(-50%);
+            margin-bottom: 2rem;
+            display: flex;
+            justify-content: space-between;
+            width: auto;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1.5rem;
+            font-size: 2rem; /* Increased size for icons */
+            transition: transform 0.3s ease, color 0.3s ease; 
+        }
+
+        nav a:hover {
+            color: rgb(210, 30, 30); /* Red on hover */
+            transform: scale(1.5); /* Grow the icon to 1.5 times its size */
+        }
+
+        footer {
+            position: absolute;
+            bottom: 1rem;
+            font-size: 0.8rem;
+            color: #666;
+        }
+
+        @media (max-width: 600px) {
+            
+        }
+    </style>
 </head>
 <body>
-    <header> 
-        <nav>
-            <div class = "logo">
-                <h4>Pratyay Gopal</h4>
-            </div>
-                <ul class="nav-links">
-                    <li><a href="#">Projects</a></li> 
-                    <li><a href="#">Links</a></li> 
-                    <li><a href="#">Socials</a></li> 
-                </ul>
-            </div>
-        </nav>
+    <nav>
+        <a href="about.html"><i class="fas fa-user"></i></a>
+        <a href="files.html"><i class="fas fa-file-alt"></i></a>
+        <a href="mailto:pratyay2@illinois.edu"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://www.youtube.com/@pratyaygopal" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://github.com/pratyaygopal" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/pratyay-gopal/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </nav>
+
+    <header>
+        <a href="https://pratyaygopal.github.io/"><h1><span>P</span>ratyay <span>G</span>opal</h1></a>
     </header>
-    <main>
-        <iframe width="1519" height="662" src="https://www.youtube.com/embed/f_VWFFdSquA" title="One Night At ECEB showcase" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </main>
+
+    <footer>
+    </footer>
 </body>
 </html>
