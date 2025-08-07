@@ -1,7 +1,8 @@
 # pratyaygopal.github.io
-My personal website v2
+My personal website 
 
 todo:
 
-Implement the recommended games section
-Upload more files
+- make the blog page
+- implement the recommended games section
+- upload more files
