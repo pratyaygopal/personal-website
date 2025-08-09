@@ -1,6 +1,6 @@
-#pratyay.org 
+# pratyay.org
 
--pratyaygopal.github.io
+github domain: pratyaygopal.github.io
 
 My personal website 
 
