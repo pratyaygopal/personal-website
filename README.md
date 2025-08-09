@@ -1,4 +1,7 @@
-# pratyaygopal.github.io
+#pratyay.org 
+
+-pratyaygopal.github.io
+
 My personal website 
 
 todo:
